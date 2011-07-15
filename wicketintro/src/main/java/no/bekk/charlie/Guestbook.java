@@ -32,9 +32,9 @@ public class Guestbook extends WebPage {
 				new AjaxButton("submit") {
 					@Override
 					protected void onSubmit(AjaxRequestTarget target, Form<?> form) {
-						commentsList.add((Comment) form.getModelObject());
+						commentsList.add(0,(Comment) form.getModelObject());
 						
-						//Nullstille objektet, tømme formet og oppdatere kommentarene
+						//Nullstille objektet, tømme formet og oppdatere innleggene
 						target.addComponent(commentsPanel);
 						form.setDefaultModelObject(new Comment());
 						form.clearInput();

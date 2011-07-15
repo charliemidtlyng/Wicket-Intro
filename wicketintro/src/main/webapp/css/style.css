@@ -1,0 +1,34 @@
+body {
+	font-family: Georgia;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	background-color: #0C0703;
+	background: url(http://open.bekk.no/wp-content/themes/bekkSandbox/gfx/page_bkg.jpg);
+	
+}
+
+.content {
+	background-color: white;
+	border: 5px solid #019AB6;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px 50px;
+}
+	
+input, textarea {
+	font-family: Georgia;
+	font-size: 14px;
+	margin: 10px 0 10px;
+	color: #261C02;
+}
+
+h1 {
+	color: #847363;
+	font-size: 24px;
+    padding: 10px 0 0;
+}
+h2 {
+	color: #847363;
+	font-size: 20px;
+    padding: 10px 0 0;
+}
