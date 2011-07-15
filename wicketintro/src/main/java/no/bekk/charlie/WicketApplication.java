@@ -1,5 +1,8 @@
 package no.bekk.charlie;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.wicket.protocol.http.WebApplication;
 
 /**
@@ -12,6 +15,8 @@ public class WicketApplication extends WebApplication
     /**
      * Constructor
      */
+	
+	public static List<Comment> allComments = new ArrayList<Comment>();
 	public WicketApplication()
 	{
 	}
@@ -19,9 +24,9 @@ public class WicketApplication extends WebApplication
 	/**
 	 * @see org.apache.wicket.Application#getHomePage()
 	 */
-	public Class<HelloWorld> getHomePage()
+	public Class<Guestbook> getHomePage()
 	{
-		return HelloWorld.class;
+		return Guestbook.class;
 	}
-
+	
 }
