@@ -7,6 +7,6 @@ public class HelloWorld extends WebPage {
 
     public HelloWorld() {
 
-        add(new Label("tekst", "Hello World"));
+        add(new Label("tekst", "Hello Wicket"));
     }
 }
